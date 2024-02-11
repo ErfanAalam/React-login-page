@@ -9,6 +9,6 @@ function InputControl(props) {
       
     </div>
   )
-}
+  }
 
 export default InputControl
