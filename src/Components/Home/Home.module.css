@@ -1,0 +1,39 @@
+body{
+    background:teal;
+    margin: 20px;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+button{
+    padding: 20px 30px;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: rgb(103, 89, 163);
+    border: none;
+}
+button:hover{
+    background-color: antiquewhite;
+    box-shadow: 6px 6px 9px black;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.loginmessage{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.logoutmessage{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
